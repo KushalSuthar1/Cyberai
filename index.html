@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sec - Securing the Future</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background-image.jpg'); /* Replace with your background image */
+            background-size: cover;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Vertically center the logo and options */
+            background-color: #333;
+            padding: 10px;
+        }
+        .navbar img {
+            width: 100px; /* Adjust the logo size */
+            margin-right: 10px; /* Add spacing between logo and options */
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            position: relative;
+        }
+        .main-content img{
+            opacity: 50%;
+        }
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            z-index: 10;
+            opacity: 50%;
+        }
+        /* Add any additional styling or layout adjustments here */
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./assets/Isec logo.png" alt="Logo">
+        <div>
+            <a href="#">Home</a>
+            <a href="./about_us.html">About us</a>
+            <a href="./contact_us.html">Contact us</a>
+            <a href="./help.html">Help</a>
+            <a href="#">Profile</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <!-- Replace 'your-image.jpg' with the actual path to your background image -->
+        <img src="./assets/carousel-2.jpg" alt="Business Analytics" style="width: 100%;">
+        <div class="overlay-text">Securing the Future</div>
+    </div>
+    <!-- Add any additional content or scripts here -->
+</body>
+</html>
